@@ -1,0 +1,19 @@
+132
+~E 1 "./src/deboucner.vhd" 28 deboucner
+~A 1 "./src/deboucner.vhd" 36 behavioral
+~E 1 "./src/Circuit_SSD.vhd" 28 circuit_ssd
+~A 1 "./src/Circuit_SSD.vhd" 39 behavioral
+~E 1 "./src/Ceva.vhd" 28 ceva
+~A 1 "./src/Ceva.vhd" 50 ceva
+~E 1 "./src/Comparator.vhd" 6 comparator
+~A 1 "./src/Comparator.vhd" 16 behavioral
+~E 1 "./src/FullAdderSuma.vhd" 28 fulladdersuma
+~A 1 "./src/FullAdderSuma.vhd" 36 fulladdersuma
+~E 1 "./src/deboucner.vhd" 28 debouncer
+~A 1 "./src/debouncer.vhd" 36 behavioral
+~E 1 "./src/SSD.vhd" 29 ssd
+~A 1 "./src/SSD.vhd" 41 behavioral
+~E 1 "./src/Rest.vhd" 29 rest
+~A 1 "./src/Rest.vhd" 36 behavioral
+~E 1 "./src/SumatorScazator.vhd" 28 sumatorscazator
+~A 1 "./src/SumatorScazator.vhd" 40 sumatorscazator

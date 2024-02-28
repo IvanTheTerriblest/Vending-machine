@@ -1,0 +1,376 @@
+$WAVE4TIMED
+$RESOLUTION 1000
+I 1 "e#9#std_logicc9 UX01ZWLH-"
+$IN 1 1 CLK
+$IN 5 1 Reset
+I 2 "a#28#std_logic_vector(3 downto 0)1 ricd3 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 25 2 4 Bilete
+$SC 9-21/4
+I 3 "a#28#std_logic_vector(6 downto 0)1 ricd6 0 e#9#std_logicc9 UX01ZWLH-"
+$BUS IN 54 3 7 Distanta
+$SC 26-50/4
+$BUS OUT 83 3 7 CostBilet
+$SC 55-79/4
+$BUS OUT +33 3 7 SumaIntrodusa
+$SC 84-+24/4
+$OUT +5 1 EliberareRest
+$OUT +4 1 9 1 Bile
+$BUS IN +32 3 7 CasaDeBani
+$SC 121-+24/4
+$OUT +5 1 LipsaRest
+$OUT +4 1 5 0 Bilete
+$BUS IN +32 3 7 Bancnota
+$SC 158-+24/4
+$BUS IN +33 3 7 Moneda
+$SC 187-+24/4
+$IN +5 1 RestituireBani
+$OUT +4 1 SumaInsuficienta
+$ENDTIME 100000
+$WAVES 5
+=0 T 0
+$VALUES
+V 1
+0
+$END
+$WAVES 1
+*0
+R 1 2 =1 T 50k
+$VALUES
+V 3
+0
+1
+0
+$END
+$WAVES 9-21/4 +5-50/4 +5-79/4 +5-+24/4 +13-+24/4 +5-+32/4 +5-+24/4 +5
+*0
+$VALUES
+V 1
+U
+$END
+$WAVES 113 +4 220
+*0
+=2 D 0 1
+$VALUES
+V 2
+U
+0
+$END
+$ENDTIME 200000
+$WAVES 1
+=3 T 150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$WAVES 211
+=4 D 100k 1
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-5
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES 145
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES +-4
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES 50
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES 46
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES 42
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES 38
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES 34
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES 30
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES 26
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES 21
+*4
+$VALUES
+V 1
+0
+$END
+$WAVES 17
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES 13
+*4
+$VALUES
+V 1
+1
+$END
+$WAVES 9
+*4
+$VALUES
+V 1
+0
+$END
+$ENDTIME 300000
+$WAVES 1
+=5 T 250k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 400000
+$WAVES 1
+=6 T 350k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 500000
+$WAVES 1
+=7 T 450k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 600000
+$WAVES 1
+=8 T 550k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 700000
+$WAVES 1
+=9 T 650k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 800000
+$WAVES 1
+=10 T 750k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 900000
+$WAVES 1
+=11 T 850k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 1000000
+$WAVES 1
+=12 T 950k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 1100000
+$WAVES 1
+=13 T 1050k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 1200000
+$WAVES 1
+=14 T 1150k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 1300000
+$WAVES 1
+=15 T 1250k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 1400000
+$WAVES 1
+=16 T 1350k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDTIME 1500000
+$WAVES 1
+=17 T 1450k
+*1
+$VALUES
+V 2
+1
+0
+$END
+$ENDWAVE

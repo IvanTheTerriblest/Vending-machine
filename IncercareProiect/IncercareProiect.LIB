@@ -1,0 +1,33 @@
+timestamp=1653308817682
+
+[incercareproiect]
+A/incercareproiect=A/IncercareProiect 21|./src/IncercareProiect.vhd|56|1*510920
+B/incercareproiect=3*0
+H/incercareproiect=0*676758
+R=./src/IncercareProiect.vhd|30
+V=0*685389
+
+[ssd]
+A/behavioral=A/Behavioral 21|./src/SevenSegment.vhd|41|1*516129
+B/behavioral=3*15973
+H/behavioral=0*690592
+R=./src/SevenSegment.vhd|29
+V=0*694466
+
+[~A]
+./src/IncercareProiect.vhd~IncercareProiect=0*675858*676675
+./src/IncercareProiect.vhd~IncercareProiectIncercareProiect=0*678623*683231
+./src/SevenSegment.vhd~BehavioralSSD=0*691805*693133
+./src/SevenSegment.vhd~SSD=0*690056*690526
+ModifyID=696
+Version=73
+
+[~MFT]
+0=725|0IncercareProiect.mgf|694466|675858
+1=211|1IncercareProiect.mgf|516129|510920
+3=1|3IncercareProiect.mgf|15973|0
+
+[~U]
+incercareproiect=11|0*683330|0*683950
+ssd=SSD 11|0*693209|0*693520
+

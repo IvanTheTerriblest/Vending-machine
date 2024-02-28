@@ -1,0 +1,1 @@
+-w -s "c:\My_Designs\IncercareProiect\library.cfg"  -j "c:\My_Designs\IncercareProiect\IncercareProiect\projlib.cfg"  -d "c:\My_Designs\IncercareProiect\IncercareProiect\compile\"  -work IncercareProiect -dbg -e 100 "c:\My_Designs\IncercareProiect\IncercareProiect\src\SevenSegment.vhd" 

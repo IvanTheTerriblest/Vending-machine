@@ -1,0 +1,53 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=1
+Current Config=compile
+
+[Configurations]
+compile=IncercareProiect
+
+[Library]
+IncercareProiect=.\IncercareProiect.lib
+
+[$LibMap$]
+IncercareProiect=.
+Active_lib=
+
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+SYNTH_TOOL=<none>
+IMPL_TOOL=<none>
+FAMILY=
+FLOWTOOLS=ONLY_IMPL
+
+[IMPLEMENTATION]
+UCF=
+
+[Folders]
+Name3=Makefiles
+Directory3=c:\My_Designs\IncercareProiect\IncercareProiect\
+Extension3=mak
+Name4=Memory
+Directory4=c:\My_Designs\IncercareProiect\IncercareProiect\src
+Extension4=mem;mif;hex
+Name5=Dll Libraries
+Directory5=c:\My_Designs\IncercareProiect\IncercareProiect\
+Extension5=dll
+
+[HierarchyViewer]
+SortInfo=u
+HierarchyInformation=incercareproiect|incercareproiect|0    
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/IncercareProiect.vhd=-1
+/SevenSegment.vhd=-1
+
+[Files.Data]
+.\src\IncercareProiect.vhd=VHDL Source Code
+.\src\SevenSegment.vhd=VHDL Source Code
+
